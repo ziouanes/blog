@@ -10,8 +10,11 @@
 		
         <!-- All Plugins Css -->
         <link rel="stylesheet" href="{{asset('assets/css/plugins.css')}}">
-		<link rel="stylesheet" href="{{asset('assets/css/icofont.css')}}">
-		
+
+		<link rel="stylesheet" href="http://yoursite.com/themify-icons.css"">
+	
+
+
         <!-- Custom CSS -->
         <link href="{{asset('assets/css/styles.css')}}" rel="stylesheet">
 		

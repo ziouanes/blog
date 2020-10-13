@@ -39,7 +39,11 @@ Route::group(['prefix' => '{language}'], function () {
 
     //Route::get('/home', 'HomeController@index')->name('home');
     //     //Auth::routes();
+    Route::get('/Admin', 'adminconroller@index');
 });
+
+Route::post('ajouter', 'adminconroller@ajouter');
+
 
 
 // Route::get('contact', function () {
