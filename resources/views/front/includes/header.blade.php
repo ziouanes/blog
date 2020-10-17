@@ -11,7 +11,7 @@
         <!-- All Plugins Css -->
         <link rel="stylesheet" href="{{asset('assets/css/plugins.css')}}">
 
-		<link rel="stylesheet" href="http://yoursite.com/themify-icons.css"">
+		{{-- <link rel="stylesheet" href="http://yoursite.com/themify-icons.css""> --}}
 	
 
 
