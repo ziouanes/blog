@@ -4,7 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 
-class SetLanguage
+class SetLocale
 {
     /**
      * Handle an incoming request.
@@ -15,8 +15,6 @@ class SetLanguage
      */
     public function handle($request, Closure $next)
     {
-
-
 
         app()->setlocale($request->segment(1));
 

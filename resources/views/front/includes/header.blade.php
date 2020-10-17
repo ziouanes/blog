@@ -63,8 +63,8 @@
 									<ul class="tp-list ml-2">
 										@if(Route::currentRouteName())
 
-										<li><a href="{{ route(Route::currentRouteName(), 'en')}}" >En</a></li>
-										<li><a href="{{ route(Route::currentRouteName(), 'fr')}}" >Fr</a></li>
+										<li><a href="{{ route(request()->route()->getName(), 'en')}}" >En</a></li>
+										<li><a href="{{ route(request()->route()->getName(), 'fr')}}" >Fr</a></li>
 										@else
 										<li><a href="/en" >En</a></li>
 										<li><a href="/fr" >Fr</a></li>
@@ -100,7 +100,7 @@
 								</li>
 								
 								<li>
-									<a href="{{ route('layouts.tourGrid',app()->getLocale() )}}">Tours</a>                                 
+									{{-- <a href="{{ route('layouts.tourGrid',app()->getLocale() )}}">Tours</a>                                  --}}
 								</li>
 								
 								<li>
@@ -122,7 +122,7 @@
 								
 								<li>
 
-									<a href="{{ route('contact',app()->getLocale() )}}">Contact Us</a>   
+									{{-- <a href="{{ route('contact',app()->getLocale() )}}">Contact Us</a>    --}}
 									                              
 								</li>							
 								

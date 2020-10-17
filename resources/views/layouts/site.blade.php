@@ -83,7 +83,7 @@
                 <div class="col-lg-12 col-md-12">
                     <div class="sec-heading center">
                         <p>Popular Travel Packages</p>
-                        <a href="{{route('layouts.tourGrid',app()->getLocale() )}}" >
+                        <a href="{{route('layouts.tourGrid' )}}" >
 
                             <h2 > Top Cities for Travel</h2>
 

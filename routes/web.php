@@ -19,30 +19,39 @@ use Illuminate\Support\Facades\Route;
 // });
 //Route::view('/', 'layouts.site');
 
+Route::get('/', function () {
+    return redirect(app()->getLocale());
+});
+// Route::redirect('/', '/en');
+Route::get('/', function () {
+    return view('layouts.site');
+});
+Route::get('/tours', 'tours@showString')->name('layouts.tourGrid');
 
-Route::redirect('/', '/en');
-
-Route::group(['prefix' => '{language}'], function () {
-
+Route::group([
+    'prefix' => '{locale}',
+    'where' => ['locale' => 'en|fr'],
+    'middleware' => 'setlocale',
+], function () {
 
     Route::get('/', function () {
-        return view('layouts.site');
-    });
+        return view('welcome');
+    })->name('welcome');
 
 
 
 
 
-    Route::get('/contact', 'contact@showString')->name('contact');
 
-    Route::get('/tours', 'tours@showString')->name('layouts.tourGrid');
+    //     Route::get('/contact', 'contact@showString')->name('contact');
 
-    //Route::get('/home', 'HomeController@index')->name('home');
-    //     //Auth::routes();
-    Route::get('/Admin', 'adminconroller@index');
+
+    //     //Route::get('/home', 'HomeController@index')->name('home');
+    //     //     //Auth::routes();
+    //     Route::get('/Admin', 'adminconroller@index');
 });
 
-Route::post('ajouter', 'adminconroller@ajouter');
+// Route::post('ajouter', 'adminconroller@ajouter');
 
 
 
