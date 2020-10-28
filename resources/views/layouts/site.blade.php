@@ -99,7 +99,7 @@
                     <div class="singlePlaceitem">
                         <figure class="singlePlacewrap">
                             <a class="place-link" href="#">
-                                <img class="cover" src="{{asset('assets/images/agadir.jpg')}}" alt="room">
+                                <img class="cover" src="{{asset('assets/images/Agadir.jpg')}}" alt="room">
                             </a>
                         </figure>
                         <div class="placeDetail">
