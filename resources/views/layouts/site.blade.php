@@ -99,7 +99,7 @@
                     <div class="singlePlaceitem">
                         <figure class="singlePlacewrap">
                             <a class="place-link" href="#">
-                                <img class="cover" src="https://kumarpreet.com/travlio-live/travlio/assets/img/destination/des-2.jpg" alt="room">
+                                <img class="cover" src="{{asset('assets/images/agadir.jpg')}}" alt="room">
                             </a>
                         </figure>
                         <div class="placeDetail">
@@ -129,7 +129,7 @@
                     <div class="singlePlaceitem">
                         <figure class="singlePlacewrap">
                             <a class="place-link" href="#">
-                                <img class="cover" src="https://kumarpreet.com/travlio-live/travlio/assets/img/destination/des-3.jpg" alt="room">
+                                <img class="cover" src="{{asset('assets/images/chawon.jpg')}}" alt="room">
                             </a>
                         </figure>
                         <div class="placeDetail">
@@ -144,7 +144,7 @@
                                     <span>(38) Reviews</span>
                                 </div>
                                 <h4 class="title"><a href="#">Amalfi, Italy</a></h4>
-                                <span class="placeDetail-detail"><i class="ti-location-pin"></i>Florence, Italy</span>
+                                <span class="placeDetail-detail"><i class="ti-location-pin"></i>Chefchaouen</span>
                             </div>
                             <div class="pricedetail-box">
                             <h6 class="price-title-cut">$1299</h6>
@@ -159,7 +159,7 @@
                     <div class="singlePlaceitem">
                         <figure class="singlePlacewrap">
                             <a class="place-link" href="#">
-                                <img class="cover" src="https://kumarpreet.com/travlio-live/travlio/assets/img/destination/des-4.jpg" alt="room">
+                                <img class="cover" src="{{asset('assets/images/fes.jpg')}}" alt="room">
                             </a>
                         </figure>
                         <div class="placeDetail">
@@ -173,8 +173,8 @@
                                     <i class="fa fa-star"></i>
                                     <span>(40) Reviews</span>
                                 </div>
-                                <h4 class="title"><a href="#">Pyramids of Giza, Egypt</a></h4>
-                                <span class="placeDetail-detail"><i class="ti-location-pin"></i>Egypt, USA</span>
+                                <h4 class="title"><a href="#">Fes</a></h4>
+                                <span class="placeDetail-detail"><i class="ti-location-pin"></i>Fes, morocco</span>
                             </div>
                             <div class="pricedetail-box">
                             <h6 class="price-title-cut">$1090</h6>
